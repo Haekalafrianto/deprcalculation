@@ -21,9 +21,3 @@ def sum_of_the_year_method(cost, residue, life):
         depreciation = (cost - residue) * factor
         values.append(round(depreciation, 2))
     return values
-
-cost = 1000
-residue = 100
-life = 5
-
-print(sum_of_the_year_method(cost, residue, life))
